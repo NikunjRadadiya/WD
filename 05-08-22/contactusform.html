@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      /* overflow-x: hidden; */
+      font-family: 'Poppins', sans-serif;
+    }
+
+    .contactfrm {
+      border: 2px solid black;
+      padding-top: 50px;
+      box-sizing: border-box;
+      width: 75%;
+      height: 700px;
+      margin: auto;
+      background: rgb(250, 250, 250);
+    }
+
+    .maindiv1 {
+      width: 80%;
+      height: 500px;
+      margin: auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .div1 {
+      width: 48%;
+      height: 95%;
+    }
+
+    .div1 iframe {
+      height: 100%;
+      width: 100%;
+    }
+
+    .div2 {
+      width: 48%;
+      height: 95%;
+      position: relative;
+    }
+
+    .div2 h2 {
+      font-size: 40px;
+      font-weight: 300;
+    }
+
+    .div2 input[type=text],
+    .div2 input[type=email],
+    .div2 textarea {
+      display: block;
+      width: 90%;
+      padding: 10px;
+      margin-top: 30px;
+      border: 1px solid #999;
+      border-radius: 4px;
+      font-size: 18px;
+      color: #888
+    }
+
+    .div2 input[type=submit] {
+      padding-left: 0;
+      margin-top: 20px;
+      padding: 5px 10px;
+      border: none;
+      border-radius: 3px;
+      background: lightcoral;
+      font-size: 16px;
+      color: white;
+      position: absolute;
+      bottom: 0px;
+    }
+
+    .maindiv2 {
+      display: flex;
+      width: 80%;
+      margin: auto;
+      justify-content: space-between;
+    }
+
+    .maindiv2 h3 {
+      text-align: center;
+      margin-top: 30px;
+    }
+
+    .maindiv2 p {
+      color: #888;
+      font-size: 18px;
+      padding-left: 20px;
+      position: relative;
+      margin-top: 10px;
+    }
+
+    .maindiv2 span {
+      position: absolute;
+      left: 0px;
+      top: 12px;
+      color: black
+    }
+
+    .div5 p {
+      padding-left: 25px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="contactfrm">
+    <div class="maindiv1">
+      <div class="div1">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3691.7419157105924!2d70.76413601474341!3d22.2877641489825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3959ca248c77c099%3A0xdf5ac10af64ac8ee!2sTOPS%20Technologies%20Rajkot%20-%20Python%2C%20Java%2C%20Android%2C%20PHP%2C%20Web%20%26%20Graphic%20Designing%20Courses!5e0!3m2!1sen!2sin!4v1659769046747!5m2!1sen!2sin"
+          style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      <div class="div2">
+        <form action="">
+          <h2>Quick Contact</h2>
+          <input type="text" name="name" placeholder="name" required>
+          <input type="email" name="email" placeholder="email address" required>
+          <input type="text" name="phone" placeholder="phone" required pattern="[0-9]{10}">
+          <textarea name="message" placeholder="message" rows="5"></textarea>
+          <a href=""><input type="submit" value="SUBMIT"></a>
+        </form>
+      </div>
+    </div>
+    <div class="maindiv2">
+      <div class="div3">
+        <h3> Address</h3>
+        <p><span class="fa fa-map-marker"></span>University Road, <br> Rajkot.</p>
+      </div>
+
+      <div class="div4">
+        <h3> Phone No.</h3>
+        <p> <span class="fa fa-phone"></span>+91 3393792393 <br>+91 3393792393</p>
+      </div>
+
+      <div class="div5">
+        <h3> Email</h3>
+        <p><span class="fa fa-envelope"></span>xyz@gmial.com <br>xyz@gmial.com</p>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
