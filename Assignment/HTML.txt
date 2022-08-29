@@ -1,0 +1,110 @@
+Name 	: Nikunj Radadiya
+Course 	: WD
+Date	: 29/08/2022
+											Web-Design Assignment Term-1
+												Module(HTML) -1
+
+1.	Are the HTML tags and elements are the same thing?
+Ans.	No, HTML tags and elements both are different.
+
+2.	What are tags and attributes in HTML?
+Ans.	Tags are written in between the angular brackets. Some tags needs to close and some doesn't.
+	HTML attributes are words which provide additional information about the elements. 
+
+3.	What are the void element in HTML?
+Ans.	The element which doesn't required closing tag is called void element.
+
+4.	What are HTML Entities?
+Ans.	An HTML entity is used to display invisible characters and reserved characters that would otherwise be interpreted as HTML code.
+	Entities start with ampersand(&) and end with semicolon(;).
+
+5.	What are different types of lists in HTML?
+Ans.	there are two types of lists in HTML.
+	1) Order List
+	2) Unorder List
+	3) Description List
+
+6.	What is the 'class' attribute in HTML?
+Ans.	Attribute 'class' means when developer needs to change same style on multiple element or needs more than one class to single element, 'class' attribute is used.
+
+7.	What is the different between the 'id' attribute and the 'class' attribute of HTML elements?
+Ans.	id     : One element has only one unique id and one id cann't be repeated to other element.
+	class : One element has more than one class and one class can be repeated to other element.
+
+8.	What are the various formatting tags in HTML?
+Ans.	forms, input, text, anchor, image, heading, textarea, paragraph, title, quotes, code these are some HTML formatting tags.
+
+9.	How is Cell Padding different from Cell Spacing?
+Ans.	Cell Padding : Cell padding is the space between the cell and the inner content. By default padding is 0 or according to browser.
+	Cell Spacing : Cell spacing is the space between two cells. By default spacing is 2px.
+
+10.	How can we club two or more rows or columns into a single row or column in an HTML table? 
+Ans.	We can club two or more rows or columns into a single row or column by using rowspan and colspan.
+
+11.	What is the difference between a block-level element and an inline element?
+Ans.	Block-level element : Block-level element occupy 100% width of device.
+	Inline element	 : Inline element occupy the width of content's width only.
+
+12.	How to create a Hyperlink in HTML?
+Ans.	In HTML hyperlink is created by using anchor tag. Tag is written by <a>...</a>.
+	To jump into another page or within one page "href" attribute is used. Put link of the web page into "href" attributes and add some text as content in between anchor tag.
+	By doing this hyperlink will be created.
+
+13.	What is the use of an iframe tag? 
+Ans.	iframe tag is use for embed documents from internet to our webpage. Like, websites, videos etc.
+
+14.	What is the use of a span tag? Explain with example.
+Ans.	span tag is an inline tag, so when we want some content which only takes width according to it then span tag is used.
+	By doing that we can add some style on that perticular content.
+	Ex. I want to change the color of only "h1" text, than i put that text inside span.
+	      <h1>This is <span>h1</span> tag</h1>
+
+15.	How to insert a picture into a background image of a web page?
+Ans.	To insert a background image in web page, we use "background-image" property inside a style attribute of that tag in which background image we want and the value is written as "url(' ')".
+	Add url of image inside the url(' ') and the url of image could be absolute or relative.
+
+16. 	How are active links different from normal links? 
+Ans. 	Some link has some focus effect or click effect is called active link.
+	Other link which has no effect of focus or on click event that link is called natural link.
+
+17.	What are the different tags to separate sections of text? 
+Ans.	Three tags to separate section of text.
+	1) <br>	      : By this tag, line will brake and jump to next line.
+	2) <p>	      : By this tag, text will contain in new paragraph.
+	3) <blockquote> : By this tag, we will define that this section is quoted from another source.	 
+
+18.	What is SVG? 
+Ans.	SVG is stands for Scalable Vector Graphics. It is invented by W3C in 1998. 
+	It's an XML based markup language for two dimentional vector graphics. It can be scaled in or out without loosing any resolution.
+	
+19.	What is difference between HTML and XHTML? 
+Ans.	HTML stands for Hyper Text Markup Language and XHTML stands for EXtensible Hyper Text Markup Language.
+	In HTML, the attribute and tag names are case-insensitive while in XHTML attributes and tag must written in lower case.
+	HTML is not strict to written while XHTML is highly strict to written.
+	
+20.	What are logical and physical tags in HTML?
+Ans.	Logical tags  : Logical Tags are used in HTML to display the text according to the logical styles. 
+			  Ex. <em>, <strong>
+	Physical tags : Physical Tags are used in HTML to provide actual physical formatting to the text.
+			  Ex. <i>, <b>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
