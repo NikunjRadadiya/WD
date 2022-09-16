@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>confirm box</title>
+</head>
+
+<body>
+  <style>
+    a {
+      display: block;
+      text-align: center;
+    }
+  </style>
+
+  <script>
+    function orderconfirm() {
+      if (confirm("Are you sure you want to order")) {
+        alert("Your order is sucessful");
+        window.location = "https://www.flipkart.com";
+      }
+      else {
+        alert("You cancel your order");
+        window.location = "confirm.html";
+      }
+    }
+
+  </script>
+
+  <a href="#" onclick="orderconfirm()">Click Here to conform your order</a>
+
+
+
+
+</body>
+
+</html>
