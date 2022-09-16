@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>if else</title>
+</head>
+
+<body>
+  <button onclick="mdscheck()">Click here to check the modulus is zero or not</button>
+</body>
+
+<script>
+  function mdscheck() {
+    let n1 = prompt("Enter first number");
+    let n2 = prompt("Enter second number");
+    let res = n1 % n2;
+    if (n1 % n2 == 0) {
+      alert("Modulus is zero")
+    }
+    else {
+      alert("Modulus is " + res)
+    }
+  }
+</script>
+
+</html>
