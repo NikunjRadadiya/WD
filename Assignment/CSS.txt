@@ -1,0 +1,128 @@
+Name 	: Nikunj Radadiya
+Course 	: WD
+Date	: 16/09/2022
+											     Web-Design Assignment
+											    Module(CSS and CSS3) -2
+
+1.	What are the benefits of using CSS? 
+Ans.	CSS is used for apply different styles in HTML structure. Like, text color, background color, font-size, etc.
+	Site will be easy to read for user.
+	Pages loading will be fast.
+	Positioning of elements.
+	Animation of elements.
+
+2.	What are the disadvantages of CSS? 
+Ans.	With CSS, what works with one browser might not always work with another, so web developers need to test for compatibility, running the program across multiple browsers.
+	It is not uniformly support by browser.
+	Lack of security.
+
+3.	What is the difference between CSS2 and CSS3? 
+Ans.	CSS2: There is no backward compatibility with CSS2.
+		 CSS2 doesn't support border-bo property.
+		 With CSS2 only web safe fontscan be used.
+	CSS3: There is backward compatibility maintaines by CSS3.
+		 CSS3 support border-box property.
+		 With CSS3 special fonts can be used such as Google Fonts and TypeCast. 	
+
+4.	Name a few CSS style components.
+Ans.	1) Selector	 : For select the perticular element to apply style. 
+	2) Property 	 : After selecting the selector add property for change style. Like, Font-size, color, etc.
+	3) Value	 : Now put the value of the property like font-size:1.5rem, color:#888, etc.
+
+5.	What do you understand by CSS opacity? 
+Ans.	The opacity means transparency of element. The default value is 1 or 100%;
+	Reduce the opacity will make element transparant, but the element will occupy the same space as before.
+
+6.	How can the background color of an element be changed? 
+Ans.	Three ways to change background color of an element,
+	1) Use inline css, add style attributes and the property will be background-color and the value will be color name or color code.
+	2) Use internal css, to do this add style tag inside the head tag and property and value will be same as above.
+	3) Use external css, we have to link external file of css in head tag by link tag and inside that external css file, property and value will apply to the selector.
+
+7.	How can image repetition of the backup be controlled? 
+Ans.	To control repetition of backup images, background-repeat property is used and value will be no-repeat or number of how many times the we want the image to repeat.
+
+8.	What is the use of the background-position property? 
+Ans.	background-position property is used to set the starting position of the background-image.
+
+9.	Which property controls the image scroll in the background? 
+Ans.	background-attachment property controls the image scroll in the background.
+
+10.	Why should background and color be used as separate properties? 
+Ans.	Because background is used for background-color , by this we can change background-color of that element.
+	While color property is used for change the color the text.
+
+11.	How to center block elements using CSS1? 
+Ans.	For horizontally Center block elements in css1, margin-left and margin-right will be auto is used and width is necessery.
+	For vertically Center block element is css1, align-item property is used and value will be center, it only works when that block element
+	have display:flex; property.
+
+12.	How to maintain the CSS specifications? 
+Ans.	CSS specification is maintain by World Wide Web Consortium (W3C).
+
+13.	What are the ways to integrate CSS as a web page? 
+Ans.	Three ways to integrate CSS on webpage.
+	1) Inline style
+	2) Internal CSS
+	3) External CSS
+
+14.	What is embedded style sheets? 
+Ans.	Styles which are applied to the style tag inside the head tag in html page is called embedded style sheet.
+
+15.	What are the external style sheets? 
+Ans.	External style sheet means styles which apply in other file which has .css extention and link to the html page by link tag inside head tag.
+
+16.	What are the advantages and disadvantages of using external style sheets? 
+Ans.	Advantages:
+		Easy for developer to create styles and easy to update.
+		We can create separate external css files and add all external files to the one html.
+		This type od style sheet can be cached independent from HTML.
+	Disadvantages:
+		Web page will not render properly till external style sheet will load.
+		Linking multiple css files can increase the site's download time.
+
+17.	What is the meaning of the CSS selector? 
+Ans.	CSS selector means call html element to css to apply style to perticular element.	
+	There are many types of selectors. When more same style apply to different selector of singel element, higher specificity selector's style will apply.
+
+18.	What are the media types allowed by CSS? 
+Ans.	continuous or paged.
+	visual, audio, speech, or tactile.
+	grid (for character grid devices), or bitmap.
+	interactive (for devices that allow user interaction), or static (for those that do not).
+	all (includes all media types).	
+
+19.	What is the rule set? 
+Ans.	Rule set is to apply a set of properties with some define values for the element or a specific set of elements that are used in the HTML page.
+
+20.	Create Layouts.
+Ans.	<!DOCTYPE>
+	<html>
+	<head>
+		<titile>My Web page</title>
+	<style>
+		header{
+			   width:100%;
+			   height:12rem;
+			   background-color:#d1d1d1;
+			   color:#fff;
+			   text-align:center;
+			}
+		#main-heading{
+			   font-size:3em;
+			   font-weight:900;
+			}
+		.site-intro{
+			   font-size:1.2em;
+			   color:#9a9a9a;
+			}
+	</style>
+	</head>
+	<body>
+		<header>
+			<h1 id="main-heading">Website Name</h1>
+			<p class="site-intro">Small intro about website</p>
+		</header>
+	</body>
+	</html> 
+	
