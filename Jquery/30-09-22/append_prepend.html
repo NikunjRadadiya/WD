@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>append & prepend</title>
+  <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+  <style>
+    body {
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <p id="para"> is an </p>
+
+  <button id="prepend">Click to prepend</button>
+  <button id="append">Click to append</button>
+</body>
+
+<script>
+  $("#prepend").click(function () {
+    $("#para").prepend("This")
+  })
+
+  $("#append").click(function () {
+    $("#para").append("Paragraph")
+  })
+</script>
+
+</html>

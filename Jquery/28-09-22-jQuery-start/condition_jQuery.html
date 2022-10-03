@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>conditional statements in jQuery</title>
+  <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+</head>
+
+<body>
+
+  <button id="amazon">Amazon</button>
+  <button id="flipkart">Flipkart</button>
+
+
+  <script>
+
+    $("#amazon").click(function () {
+
+      let ama = confirm("Are you sure to redirect to amazon");
+      if (ama == true) {
+        window.location = "https://www.amazon.in/";
+      }
+      else {
+        window.location = "./conditional_jQuery.html";
+      }
+    })
+
+    $("#flipkart").click(function () {
+      let flip = confirm("Are you sure to redirect to flipkart");
+
+      if (flip == false) {
+        window.location = "http://www.flipkart.com";
+      }
+    })
+
+
+
+
+  </script>
+</body>
+
+</html>

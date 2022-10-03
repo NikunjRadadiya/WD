@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>selector in jQuery</title>
+  <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+</head>
+
+<body>
+
+  <h2>Three types of selector in jQuery</h2>
+  <p>Class Selector <br>
+    ID Selector<br>
+    Element Selector</p>
+
+  <h3 class="byclass">Css By Class</h3>
+  <h4 id="byid">Css By Id</h4>
+  <h5>Css By Element</h5>
+
+  <script>
+    $(".byclass").css({ "color": "red" });
+
+    $("#byid").css({ "background-color": "green" })
+
+    $("h5").css({ "text-transform": "uppercase" })
+  </script>
+</body>
+
+</html>

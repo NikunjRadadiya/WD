@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>loop in jQuery</title>
+  <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+</head>
+
+<body>
+  <button id="prt">click here to print your name</button>
+
+  <script>
+    $("#prt").click(function () {
+      let name = prompt("Enter Your Name Here");
+      var times = prompt("Enter How many times you want to print your Name");
+      times = Number.parseInt(times)
+      var t = isNaN(times);
+      if (t == true) {
+        alert("Enter a number")
+      }
+
+      for (i = 1; i <= times; i++) {
+        document.write(`${i} ${name} <br>`)
+      }
+    })
+
+
+
+
+  </script>
+</body>
+
+
+</html>
