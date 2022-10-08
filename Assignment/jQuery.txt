@@ -1,8 +1,8 @@
 Name 	: Nikunj Radadiya
 Course 	: WD
 Date	: 08/10/2022
-											Web-Design Assignment Term-1
-										Module(JQuery Basic, Effects & Advanced) - 5
+								Web-Design Assignment Term-1
+							Module(JQuery Basic, Effects & Advanced) - 5
 
 1.	What is jQuery? 
 Ans.	jQuery is a library of JavaScript. It is small, fast and handy.
