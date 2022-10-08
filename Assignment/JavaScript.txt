@@ -1,0 +1,108 @@
+Name 	: Nikunj Radadiya
+Course 	: WD
+Date	: 08/10/2022
+											Web-Design Assignment Term-1
+										      Module(JavaScript Basci & DOM) - 4
+
+1.	What is JavaScript? 
+Ans.	JavaScript is the world most popular lightweight, interpreted compiled programming language also known as scripting language for web pages. 
+	It is a client-side as well as server-side language. It is a behaviour of a webpage.
+
+2.	What is the use of isNaN function? 
+Ans.	The isNaN() function is used to check whether a given value is an illegal number or not. It returns true if value is a not a number else returns false.
+
+3.	What is negative Infinity?
+Ans.	Negative infinity is just opposite of positive infinity. 
+	Negative infinity means infinity numbers with negative value.
+
+4.	Which company developed JavaScript?
+Ans.	JavaScript is develpoed by Netscape, which is located in United States.
+
+5.	What are undeclared and undefined variables? 
+Ans.	Undeclared variables means that the variable does not exist in the program at all.
+	Undefined variables means a variable has been declared but it does not have a value.
+
+6.	Write the code for adding new elements dynamically?
+Ans.	<script>	
+		const para = document.createElement("p");
+		para.innerText = "This is a paragraph.";
+		document.body.appendChild(para);
+	</script>
+
+7.	What is the difference between ViewState and SessionState? 
+Ans.	 ViewState is to manage state at the client's end, making state management easy for end-user while SessionState manages state at the server's end.
+
+8.	What is === operator?
+Ans.	=== operator compares the values as well as the data types of the operands.
+
+9.	How can the style/class of an element be changed?
+Ans.	For change style of an element, '.style' property is used.
+
+10.	How to read and write a file using JavaScript?
+Ans.	For read file, readFile() method is used and for write a file, writeFile() method is used.
+
+11.	What are all the looping structures in JavaScript? 
+Ans.	while loop:		 while (condition) {
+			  	Block of code
+				};
+
+	do while loop:	do {
+  				Block of code
+ 				}while (condition);
+
+	for loop:		for ([initialization];[condition];[final-expression]){
+   				Block of code
+				};
+
+	forEach() loop:	arrayName.forEach(function(currentValue, index, array){
+   				function body
+				});
+
+12.	How can you convert the string of any base to an integer in JavaScript? 
+Ans.	For convert string into integer, parseInt() function is used.
+
+13.	What is the function of the delete operator?
+Ans.	delete operator removes a given property from an object. On successful deletion, it will return true , else false will be returned.
+
+14.	What are all the types of Pop up boxes available in JavaScript? 
+Ans.	Three types of pop up boxes are available in JS.
+	a) alert box
+	b) prompt box
+	c) confirm box
+
+15.	What is the use of Void (0)? 
+Ans.	It is used to returning undefined (void) as a primitive value.
+
+16.	How can a page be forced to load another page in JavaScript? 
+Ans.	window.location property is used for force to load another page in JS.
+
+17.	What are the disadvantages of using innerHTML in JavaScript?
+Ans.	1) The use of innerHTML very slow.
+	2) It is not possible to append innerHTML.
+	3) Content is replaced everywher.
+	4) Can break the document.
+	5) Old content replaced issue.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
