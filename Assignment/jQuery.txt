@@ -1,0 +1,21 @@
+Name 	: Nikunj Radadiya
+Course 	: WD
+Date	: 08/10/2022
+											Web-Design Assignment Term-1
+										Module(JQuery Basic, Effects & Advanced) - 6
+
+1.	What is jQuery? 
+Ans.	jQuery is a library of JavaScript. It is small, fast and handy.
+	It has event handling, manipulaltion, animations and Ajax which is much simpler.
+	It contain plugins which make developer life easier.
+
+2.	How to Apply CSS Using JQuery, How to Add Class and Remove Class in Jquery, JQuery Animation?
+Ans.	For apply CSS using jQuery, 'css()' method is apply to specific selector.
+	For add class, 'addClass()' method is apply to selector.
+	For remove class, 'removerClass()' method is apply.
+	For animation, ' animate()' method is use.
+
+3.	How to create slider with animation?
+Ans.	For that, jQuery plugin called 'slick()' method is used, this plugin is not built-in so, we have to add cdn and some js files along with css.
+	and for animations, we have to add some animation to slider.
+	
