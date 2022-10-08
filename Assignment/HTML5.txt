@@ -1,0 +1,25 @@
+Name 	: Nikunj Radadiya
+Course 	: WD
+Date	: 08/10/2022
+											Web-Design Assignment Term-1
+												Module(HTML5) - 3
+
+1.	What are the new tags added in HTML5?
+Ans.	<article>, <aside>,<audio>,<canvas>,<command>,<datalist>,<details>,<embed>,<figure>,<footer>,<header>,<hgroup>,<keygen>,<mark>,<meter>,<nav>,<output>,
+	<progress>,<ruby>,<section>,<time>,<video>,<wbr>.
+
+2.	How to embed audio and video in a webpage? 
+Ans.	For embedaudio in webpage, <audio> tag is use and for embed video, <video> tag is use. Link of the audio and video will paste inside 'src' attribute, src attributes is for both.
+
+3.	Semantic element in HTML5?
+Ans.	<article>,<aside>,<details>,<figcaption>,<figure>,<footer>,<header>,<main>,<mark>,<nav>,<section>,<summary>,<time>.
+
+4.	Canvas and SVG tags.
+Ans.	SVG stands for Scalabe Vector Graphics. Canvas and svg is for 2D graphics.
+	Canvas :  Raster based - composed of pixel.	
+		     Canvas has poor scalability. Hence it is not suitable for printing on higher resolution.
+		     Canvas can be modified through script only.
+
+	SVG :	     Vector based - composed of shapes.
+		     SVG has better scalability. So it can be printed with high quality at any resolution.
+		     SVG can be modified through script and CSS.
