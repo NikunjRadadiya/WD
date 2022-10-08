@@ -82,27 +82,3 @@ Ans.	1) The use of innerHTML very slow.
 	3) Content is replaced everywher.
 	4) Can break the document.
 	5) Old content replaced issue.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
