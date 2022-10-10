@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Form</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <section class="contact-frm">
+    <!-- heading section -->
+    <h2 class="frm-title">contact us</h2>
+
+    <!-- address section -->
+    <div class="address">
+      <div class="local-add">
+        <p class="add-title">address :</p>
+        <p>Saint Marco Street, 6th <br> floor, Tokyo, Japan, 123456.</p>
+      </div>
+      <div class="social-add">
+        <div class="social-container">
+          <a href="#"><i class="fa fa-square-phone"></i>
+            <p class="mobile-num">+91 1234567890</p>
+          </a>
+        </div>
+        <div class="social-container">
+          <a href="#"> <i class=" fa fa-envelope"></i>
+            <p class="email">example@gmail.com</p>
+          </a>
+        </div>
+      </div>
+      <div class="location">
+        <i class="fa fa-location-dot"></i>
+      </div>
+    </div>
+
+    <!-- form section -->
+    <div class="formdiv">
+      <form>
+        <div class="container-frm">
+          <div class="frm-row">
+            <input type="text" name="name" id="name" placeholder="Name :" pattern="[A-Za-z]+" required autofocus
+              minlength="3" maxlength="6">
+            <input type="text" name="company" id="company" placeholder="Company :" required>
+          </div>
+          <div class="frm-row">
+            <input type="text" name="email" id="email" placeholder="Email :" required>
+            <input type="text" name="mobile" id="mobile" placeholder="Mobile :" pattern="^[0-9]{3,45}$" minlength="10"
+              maxlength="10" required>
+          </div>
+          <textarea name="feedback" id="fdb" placeholder="Message :" required></textarea>
+          <input type="submit" id="send-btn" value="Send">
+        </div>
+      </form>
+
+      <div class="location-map">
+        <div class="map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3691.74204679988!2d70.76413601448266!3d22.28775918533009!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3959ca248c77c099%3A0xdf5ac10af64ac8ee!2sTOPS%20Technologies!5e0!3m2!1sen!2sin!4v1663672938372!5m2!1sen!2sin"
+            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="social-icons">
+          <a href="#" id="fb"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#" id="tw"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#" id="lk"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="#" id="gt"><i class="fa-brands fa-github"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</body>
+
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration Form</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+
+  <form name="frm">
+
+    <div class="row-container">
+      <label>First Name:</label>
+      <input type="text" class="ip" name="fname" id="fname" placeholder="Enter Your First Name" minlength="3"
+        maxlength="6">
+    </div>
+    <div class="row-container">
+      <label>Last Name:</label>
+      <input type="text" class="ip" name="lname" id="lname" placeholder="Enter Your Last Name" minlength="3"
+        maxlength="6">
+    </div>
+    <div class="row-container">
+      <label>Email:</label>
+      <input type="email" class="ip" name="email" id="email" placeholder="It should contain @..">
+    </div>
+    <div class="row-container">
+      <label>Number:</label>
+      <input type="text" class="ip" name="number" id="number" placeholder="only 10 digits are allowed" minlength="10"
+        maxlength="10">
+    </div>
+    <div class="row-container height">
+      <label>Gender:</label>
+      <input type="radio" name="gender" class="left-set">Male
+      <input type="radio" name="gender">Female
+    </div>
+    <div class="row-container">
+      <label>Date of Birth:</label>
+      <input type="date" class="ip" name="dob" id="date"></input>
+    </div>
+    <div class="row-container">
+      <label>Address:</label>
+      <textarea class="ip" name="address" id="date" rows="10"></textarea>
+    </div>
+    <div class="row-container">
+      <label>City:</label>
+      <input type="text" class="ip" name="city" id="city"></input>
+    </div>
+    <div class="row-container">
+      <label>Area PIN:</label>
+      <input type="text" class="ip" name="pin" id="pin"></input>
+    </div>
+    <div class="row-container">
+      <label>State:</label>
+      <input type="text" class="ip" name="state" id="state"></input>
+    </div>
+    <div class="row-container height">
+      <label>Qualification:</label>
+      <select name="qualification" id="qualification" class="left-set">
+        <option>Select Qualification:<i class="fa fa-angle-down"></i></option>
+        <option>PhD</option>
+        <option>PG</option>
+        <option>UG</option>
+        <option>HSC</option>
+        <option>SSC</option>
+      </select>
+    </div>
+    <div class="row-container">
+      <label name="spec">Specialization:</label>
+      <input type="checkbox" name="cs" id="cs">Computer Science</input><br>
+      <input type="checkbox" name="it" id="it">Information Technology</input><br>
+      <input type="checkbox" name="ca" id="ca">Computer Architecture</input><br>
+      <input type="checkbox" name="tc" id="tc">Tele Communication</input>
+    </div>
+    <div class="row-container">
+      <label>Password:</label>
+      <input type="password" class="ip" name="password" id="password"></input>
+    </div>
+    <button type="submit" id="submit" onclick="return sub()">Registered</button>
+
+  </form>
+
+</body>
+
+</html>

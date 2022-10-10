@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+}
+
+.contact-frm {
+  width: 70vw;
+  height: 95vh;
+  background-color: #add8e6;
+  margin: 2.5vh auto;
+  padding: 0 3% 2%;
+}
+
+
+/* heading section */
+.frm-title {
+  text-transform: uppercase;
+  padding: 1.5% 0;
+  border-bottom: 1px solid #939292;
+  font-size: 22px;
+}
+
+
+/* address section */
+.address {
+  width: 100%;
+  height: 130px;
+  background-color: #fff;
+  padding: 1.5em;
+  margin: 1.5em 0;
+  display: flex;
+}
+
+.address>* {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+}
+
+.local-add {
+  justify-content: space-between;
+}
+
+.add-title {
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+.social-add {
+  justify-content: flex-end;
+}
+
+.social-container {
+  margin-top: .4em;
+}
+
+.social-add p {
+  display: inline;
+}
+
+.social-container:first-child a {
+  color: #dc3545;
+}
+
+.social-container:last-child a {
+  color: rgb(81, 139, 170)
+}
+
+.location i {
+  text-align: center;
+  margin-top: .9em;
+  font-size: 26px;
+  color: #dc3545;
+}
+
+
+/* form section */
+.formdiv {
+  background-color: #fff;
+  padding: 1.5em;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 380px;
+  gap: 0 2em;
+}
+
+.container-frm {
+  width: 100%;
+  height: 85%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+input[type=text],
+#fdb {
+  height: 40px;
+  font-size: 18px;
+  border: 1px solid #939292;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+
+input[type=text]:focus,
+#fdb:focus {
+  outline: none;
+}
+
+input[type=text],
+.frm-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.frm-row input {
+  width: 48%;
+}
+
+#fdb {
+  height: 130px;
+}
+
+#send-btn {
+  color: #fff;
+  width: 100px;
+  text-align: center;
+  padding: .6em;
+  border-radius: 5px;
+  background-color: #dc3545;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+}
+
+.location-map {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.map {
+  width: 100%;
+  height: 330px;
+}
+
+.map iframe {
+  width: 100%;
+  height: 100%;
+  border: none
+}
+
+.social-icons {
+  width: 100%;
+}
+
+.social-icons>a {
+  width: 40px;
+  height: 40px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-icons a i {
+  color: #fff;
+}
+
+#fb {
+  background-color: #4267B2;
+}
+
+#tw {
+  background-color: #1DA1F2;
+}
+
+#lk {
+  background-color: #0A66C2;
+}
+
+#gt {
+  background-color: #000;
+}
